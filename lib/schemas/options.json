@@ -383,6 +383,11 @@
     "watchOptions": {
       "description": "Options for changing the watch behavior.",
       "type": "object"
+    },
+
+    "env": {
+      "description": "Pass configuration down to webpack configuration script",
+      "type": "object"
     }
   }
 }
